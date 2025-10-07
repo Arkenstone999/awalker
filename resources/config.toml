@@ -8,6 +8,13 @@ theme = "default"               # theme to use
 disable_mouse = false           # disable mouse (on input and list only)
 debug = false                   # enables debug printing for some stuff, f.e. keybinds
 
+[events]
+# launch = "notify-send 'walker launched'"
+# selection = "notify-send \"selection: $WALKER_SELECTION_TEXT\""
+# activate = "notify-send \"action: $WALKER_ACTION\""
+# query_change = "echo $WALKER_QUERY >>/tmp/walker_queries"
+# exit = "echo walker exited"
+
 [shell]
 anchor_top = true
 anchor_bottom = true
